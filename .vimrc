@@ -15,7 +15,10 @@ Plugin 'gmarik/Vundle.vim'
 " ================================================
 " Settings 
 " ================================================
-	
+
+	set backupdir=$TMPDIR//
+	set directory=$TMPDIR//	
+
 	set highlight+=@:ColorColumn          " ~/@ at end of window, 'showbreak'
 	set highlight+=N:DiffText             " make current line number stand out a little
 	set highlight+=c:LineNr               " blend vertical separators with line numbers
@@ -71,9 +74,10 @@ Plugin 'gmarik/Vundle.vim'
 " Mappings
 " ================================================
 
-
 	nnoremap <Space> <nop>
 	let mapleader = "\<Space>"
+
+	nnoremap <leader>t :Gstatus<CR>
 
 	nnoremap <leader>v :e ~/.vimrc<CR>
 
