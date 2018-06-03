@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/nicksugar/Document'
+let g:netrw_dirhist_2='/Users/nicksugar'
+let g:netrw_dirhist_3='/Users/nicksugar/Document/myScripts'
+let g:netrw_dirhist_4='/Users/nicksugar/oh-my-zsh/.git'
+let g:netrw_dirhist_5='/Users/nicksugar/.vim'
+let g:netrw_dirhist_6='/Users/nicksugar/.vim/.git'

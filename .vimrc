@@ -1,3 +1,4 @@
+
 set nocompatible              " required
 filetype off                  " required
 
@@ -161,6 +162,7 @@ EOF
 	let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 	Plugin 'kien/ctrlp.vim'
 
+	let g:ctrlp_show_hidden = 1
 	set nu
 
 	Plugin 'tpope/vim-fugitive'
